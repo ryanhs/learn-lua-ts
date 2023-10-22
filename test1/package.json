@@ -4,6 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "build": "tstl",
+    "dev": "tstl --watch",
+    "start": "lua ./dist/index.lua"
+  },
   "dependencies": {
     "typescript": "^5.2.2",
     "typescript-to-lua": "^1.20.1"

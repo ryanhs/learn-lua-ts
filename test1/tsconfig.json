@@ -4,12 +4,13 @@
     "target": "ESNext",
     "lib": ["ESNext"],
     "moduleResolution": "Node",
+    "resolveJsonModule": true,
     "types": [],
     "strict": true,
     "rootDir": "./src",
     "outDir": "./dist"
   },
   "tstl": {
-    "luaTarget": "JIT"
+    "luaTarget": "5.1"
   }
 }
